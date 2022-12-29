@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Another post my post!"
+date:   2022-12-26 22:33:11 +0100
+categories: jekyll update
+published: true
+food: Pizza
+---
+{% highlight swift %}
+func foo() {
+let a = 3
+}
+{% endhighlight %}
+blablab
+ooo
+test
+
+fds
+
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+<h1>{{ page.food }} </h1>
